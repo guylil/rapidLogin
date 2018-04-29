@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.react-draggable, .cursor {
+    cursor: move;
+}
+.no-cursor {
+    cursor: auto;
+}
+.cursor-y {
+    cursor: ns-resize;
+}
+.cursor-x {
+    cursor: ew-resize;
+}
+.react-draggable strong {
+    background: #ddd;
+    border: 1px solid #999;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 10px;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.box {
+    background-image: url("https://www.ouest-france.fr/sites/default/files/styles/image-900x500/public/2015/10/14/la-realite-depasse-la-science-fiction.jpg?itok=apMMPxJG");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #999;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 200px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.UserPhoto {
+    max-height: 300px;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+img {
+    border-radius: 30%;
+}

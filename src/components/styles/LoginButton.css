@@ -1,0 +1,9 @@
+
+button {
+    opacity: 80%;
+    border-radius: 15%;
+    background-color: deepskyblue;
+    margin: 0.5em;
+    width: 5em;
+    height: 3em;
+}
